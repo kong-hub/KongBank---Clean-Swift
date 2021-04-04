@@ -15,6 +15,12 @@
 		2267DCE82615DB5C0016EFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2267DCE62615DB5C0016EFB1 /* LaunchScreen.storyboard */; };
 		2267DCF32615DB5D0016EFB1 /* KongBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267DCF22615DB5D0016EFB1 /* KongBankTests.swift */; };
 		2267DCFE2615DB5D0016EFB1 /* KongBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267DCFD2615DB5D0016EFB1 /* KongBankUITests.swift */; };
+		2267DD142615DB960016EFB1 /* QuestionarePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267DD0E2615DB960016EFB1 /* QuestionarePresenter.swift */; };
+		2267DD152615DB960016EFB1 /* QuestionareWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267DD0F2615DB960016EFB1 /* QuestionareWorker.swift */; };
+		2267DD162615DB960016EFB1 /* QuestionareRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267DD102615DB960016EFB1 /* QuestionareRouter.swift */; };
+		2267DD172615DB960016EFB1 /* QuestionareModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267DD112615DB960016EFB1 /* QuestionareModels.swift */; };
+		2267DD182615DB960016EFB1 /* QuestionareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267DD122615DB960016EFB1 /* QuestionareViewController.swift */; };
+		2267DD192615DB960016EFB1 /* QuestionareInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267DD132615DB960016EFB1 /* QuestionareInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		2267DCF92615DB5D0016EFB1 /* KongBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KongBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2267DCFD2615DB5D0016EFB1 /* KongBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KongBankUITests.swift; sourceTree = "<group>"; };
 		2267DCFF2615DB5D0016EFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2267DD0E2615DB960016EFB1 /* QuestionarePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionarePresenter.swift; sourceTree = "<group>"; };
+		2267DD0F2615DB960016EFB1 /* QuestionareWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionareWorker.swift; sourceTree = "<group>"; };
+		2267DD102615DB960016EFB1 /* QuestionareRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionareRouter.swift; sourceTree = "<group>"; };
+		2267DD112615DB960016EFB1 /* QuestionareModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionareModels.swift; sourceTree = "<group>"; };
+		2267DD122615DB960016EFB1 /* QuestionareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionareViewController.swift; sourceTree = "<group>"; };
+		2267DD132615DB960016EFB1 /* QuestionareInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionareInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,7 @@
 				2267DCE42615DB5C0016EFB1 /* Assets.xcassets */,
 				2267DCE62615DB5C0016EFB1 /* LaunchScreen.storyboard */,
 				2267DCE92615DB5C0016EFB1 /* Info.plist */,
+				2267DD1D2615DB9D0016EFB1 /* Questionare */,
 			);
 			path = KongBank;
 			sourceTree = "<group>";
@@ -126,6 +139,19 @@
 				2267DCFF2615DB5D0016EFB1 /* Info.plist */,
 			);
 			path = KongBankUITests;
+			sourceTree = "<group>";
+		};
+		2267DD1D2615DB9D0016EFB1 /* Questionare */ = {
+			isa = PBXGroup;
+			children = (
+				2267DD0E2615DB960016EFB1 /* QuestionarePresenter.swift */,
+				2267DD0F2615DB960016EFB1 /* QuestionareWorker.swift */,
+				2267DD102615DB960016EFB1 /* QuestionareRouter.swift */,
+				2267DD112615DB960016EFB1 /* QuestionareModels.swift */,
+				2267DD122615DB960016EFB1 /* QuestionareViewController.swift */,
+				2267DD132615DB960016EFB1 /* QuestionareInteractor.swift */,
+			);
+			path = Questionare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2267DD192615DB960016EFB1 /* QuestionareInteractor.swift in Sources */,
 				2267DCE02615DB590016EFB1 /* ViewController.swift in Sources */,
+				2267DD182615DB960016EFB1 /* QuestionareViewController.swift in Sources */,
+				2267DD172615DB960016EFB1 /* QuestionareModels.swift in Sources */,
+				2267DD152615DB960016EFB1 /* QuestionareWorker.swift in Sources */,
+				2267DD142615DB960016EFB1 /* QuestionarePresenter.swift in Sources */,
+				2267DD162615DB960016EFB1 /* QuestionareRouter.swift in Sources */,
 				2267DCDC2615DB590016EFB1 /* AppDelegate.swift in Sources */,
 				2267DCDE2615DB590016EFB1 /* SceneDelegate.swift in Sources */,
 			);
